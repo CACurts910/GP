@@ -31,7 +31,8 @@
                 "topFreeSights": "Rizal Park, Chinatown, Baywalk promenade, Greenbelt Park",
                 "topHood": "Binondo (Chinatown), Makati Central Business District, Malate for nightlife, Intramuros for history",
                 "topEquipment": "Comfortable walking shoes, sun protection, portable charger, camera"
-            }
+            },
+            "cityCode": "MNL"
         },
         {
             "cityName": "Cebu",
@@ -64,7 +65,8 @@
                 "topFreeSights": "Colon Street, Carbon Market, Santo Niño Basilica grounds",
                 "topHood": "Lahug for nightlife, Mactan Island for beaches and resorts, downtown Cebu for shopping and dining",
                 "topEquipment": "Swimwear, snorkeling gear, hiking shoes, insect repellent"
-            }
+            },
+            "cityCode": "CEB"
         },
         {
             "cityName": "Davao",
@@ -97,7 +99,8 @@
                 "topFreeSights": "People’s Park, Magsaysay Park, Davao Crocodile Park (entry fee applies), local markets",
                 "topHood": "Roxas Avenue for dining, Matina for nightlife, Samal Island for beaches and resorts",
                 "topEquipment": "Hiking gear, insect repellent, sun protection, camera"
-            }
+            },
+            "cityCode": "DVO"
         },
         {
             "cityName": "Vigan",
@@ -130,7 +133,8 @@
                 "topFreeSights": "Calle Crisologo, Plaza Salcedo, Syquia Mansion grounds",
                 "topHood": "Calle Crisologo for shopping and dining, Pagburnayan Jar Factory",
                 "topEquipment": "Comfortable walking shoes, camera"
-            }
+            },
+            "cityCode": "VIG"
         },
         {
             "cityName": "Baguio",
@@ -163,7 +167,8 @@
                 "topFreeSights": "Burnham Park, Baguio Cathedral grounds",
                 "topHood": "Session Road for shopping and dining, Mines View Park for views",
                 "topEquipment": "Warm clothing, walking shoes, camera"
-            }
+            },
+            "cityCode": "BAG"
         },
         {
             "cityName": "Ilocos Norte",
@@ -196,7 +201,8 @@
                 "topFreeSights": "Paoay Church grounds, sand dunes",
                 "topHood": "Laoag City center, nearby beaches, and resorts",
                 "topEquipment": "Sun protection, comfortable shoes, camera"
-            }
+            },
+            "cityCode": "ILN"
         },
         {
             "cityName": "Bohol",
@@ -229,7 +235,8 @@
                 "topFreeSights": "Bohol Bee Farm, Loboc River banks",
                 "topHood": "Tagbilaran City, Panglao Island for beaches and resorts",
                 "topEquipment": "Camera, sun protection, comfortable shoes"
-            }
+            },
+            "cityCode": "BOH"
         },
         {
             "cityName": "Samar",
@@ -262,7 +269,8 @@
                 "topFreeSights": "Samar Heritage Center, local markets",
                 "topHood": "Basey for cultural crafts, Calbayog for beaches",
                 "topEquipment": "Hiking shoes, waterproof gear, camera"
-            }
+            },
+            "cityCode": "SAM"
         },
         {
             "cityName": "Camiguin",
@@ -295,370 +303,382 @@
                 "topFreeSights": "Old Church Ruins, local beaches",
                 "topHood": "Benoni for hot springs, Mambajao for markets",
                 "topEquipment": "Snorkeling gear, sun protection, hiking shoes"
-            }
+            },
+            "cityCode": "CAG"
         },
-            {
-                "cityName": "Iloilo",
-                "cityBannerImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Seal_of_Iloilo_City.png/250px-Seal_of_Iloilo_City.png",
-                "cityLargeImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Mandurriao_Iloilo_City_skyline_2025.jpg/960px-Mandurriao_Iloilo_City_skyline_2025.jpg",
-                "cityLoc": "Western Visayas",
-                "cityAttribute": "Heritage and Food",
-                "cityDescription": "Iloilo is known for its Spanish-era churches, heritage mansions, and vibrant food scene. The city hosts the famous Dinagyang Festival and offers scenic river walks.",
-                "cityWonders": [
-                    {
-                        "wonderName": "Molo Church",
-                        "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/St._Anne_Parish_%28Molo_Church%29_%28cropped%29.jpg/2560px-St._Anne_Parish_%28Molo_Church%29_%28cropped%29.jpg",
-                        "wonderDescription": "A Gothic-Renaissance church known for its all-female saints."
-                    },
-                    {
-                        "wonderName": "Iloilo River Esplanade",
-                        "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Iloilo_City_Proper_skyline_2023_%28cropped%29.jpg",
-                        "wonderDescription": "A scenic walkway along the Iloilo River, popular for leisure and exercise."
-                    },
-                    {
-                        "wonderName": "Jaro Cathedral",
-                        "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Jaro_Cathedral_%28Catedral_de_Jaro%29_%28cropped%29.jpg/2560px-Jaro_Cathedral_%28Catedral_de_Jaro%29_%28cropped%29.jpg",
-                        "wonderDescription": "A historic cathedral known for its unique architecture and the only bell tower in the Philippines that is separate from the church."
-                    }
-                ],
-                "cityTop": {
-                    "topSights": "Molo Church, Esplanade, Calle Real, Jaro Cathedral",
-                    "topSeason": "January for Dinagyang Festival",
-                    "topTransport": "Jeepneys, taxis, river ferry",
-                    "topFreeSights": "Esplanade, Plaza Libertad",
-                    "topHood": "Molo, Jaro, Mandurriao",
-                    "topEquipment": "Camera, walking shoes"
+        {
+            "cityName": "Iloilo",
+            "cityBannerImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Seal_of_Iloilo_City.png/250px-Seal_of_Iloilo_City.png",
+            "cityLargeImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Mandurriao_Iloilo_City_skyline_2025.jpg/960px-Mandurriao_Iloilo_City_skyline_2025.jpg",
+            "cityLoc": "Western Visayas",
+            "cityAttribute": "Heritage and Food",
+            "cityDescription": "Iloilo is known for its Spanish-era churches, heritage mansions, and vibrant food scene. The city hosts the famous Dinagyang Festival and offers scenic river walks.",
+            "cityWonders": [
+                {
+                    "wonderName": "Molo Church",
+                    "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/St._Anne_Parish_%28Molo_Church%29_%28cropped%29.jpg/2560px-St._Anne_Parish_%28Molo_Church%29_%28cropped%29.jpg",
+                    "wonderDescription": "A Gothic-Renaissance church known for its all-female saints."
+                },
+                {
+                    "wonderName": "Iloilo River Esplanade",
+                    "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Iloilo_City_Proper_skyline_2023_%28cropped%29.jpg",
+                    "wonderDescription": "A scenic walkway along the Iloilo River, popular for leisure and exercise."
+                },
+                {
+                    "wonderName": "Jaro Cathedral",
+                    "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Jaro_Cathedral_%28Catedral_de_Jaro%29_%28cropped%29.jpg/2560px-Jaro_Cathedral_%28Catedral_de_Jaro%29_%28cropped%29.jpg",
+                    "wonderDescription": "A historic cathedral known for its unique architecture and the only bell tower in the Philippines that is separate from the church."
                 }
+            ],
+            "cityTop": {
+                "topSights": "Molo Church, Esplanade, Calle Real, Jaro Cathedral",
+                "topSeason": "January for Dinagyang Festival",
+                "topTransport": "Jeepneys, taxis, river ferry",
+                "topFreeSights": "Esplanade, Plaza Libertad",
+                "topHood": "Molo, Jaro, Mandurriao",
+                "topEquipment": "Camera, walking shoes"
             },
-            {
-                "cityName": "Puerto Princesa",
-                "cityBannerImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Puerto_Princesa_city_seal.svg/250px-Puerto_Princesa_city_seal.svg.png",
-                "cityLargeImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Nagtabon_Beach%2C_Puerto_Princesa_%28Unsplash%29.jpg/500px-Nagtabon_Beach%2C_Puerto_Princesa_%28Unsplash%29.jpg",
-                "cityLoc": "Palawan",
-                "cityAttribute": "Nature and Adventure",
-                "cityDescription": "Puerto Princesa is famous for the Underground River, pristine beaches, and eco-adventures.",
-                "cityWonders": [
-                    {
-                        "wonderName": "Underground River",
-                        "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/PUERTO_PRINCESA_UNDERGROUND_RIVER.jpg/500px-PUERTO_PRINCESA_UNDERGROUND_RIVER.jpg",
-                        "wonderDescription": "A UNESCO World Heritage Site and one of the New 7 Wonders of Nature."
-                    },
-                    {
-                        "wonderName": "Honda Bay",
-                        "wonderImg": "https://upload.wikimedia.org/wikipedia/en/0/01/Dos_Palmas_RP.JPG",
-                        "wonderDescription": "A bay with several islands ideal for snorkeling and island hopping."
-                    },
-                    {
-                        "wonderName": "Baker's Hill",
-                        "wonderImg": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/3b/9d/1c/baker-s-hill-bakeshoppe.jpg?w=900&h=500&s=1",
-                        "wonderDescription": "A popular park and bakery with beautiful gardens and views."
-                    }
-                ],
-                "cityTop": {
-                    "topSights": "Underground River, Honda Bay, Baker's Hill",
-                    "topSeason": "Dry season (November to May)",
-                    "topTransport": "Tricycles, vans, boats",
-                    "topFreeSights": "Baywalk, Plaza Cuartel",
-                    "topHood": "Rizal Avenue, San Pedro",
-                    "topEquipment": "Swimwear, sunblock"
+            "cityCode": "ILO"
+        },
+        {
+            "cityName": "Puerto Princesa",
+            "cityBannerImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Puerto_Princesa_city_seal.svg/250px-Puerto_Princesa_city_seal.svg.png",
+            "cityLargeImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Nagtabon_Beach%2C_Puerto_Princesa_%28Unsplash%29.jpg/500px-Nagtabon_Beach%2C_Puerto_Princesa_%28Unsplash%29.jpg",
+            "cityLoc": "Palawan",
+            "cityAttribute": "Nature and Adventure",
+            "cityDescription": "Puerto Princesa is famous for the Underground River, pristine beaches, and eco-adventures.",
+            "cityWonders": [
+                {
+                    "wonderName": "Underground River",
+                    "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/PUERTO_PRINCESA_UNDERGROUND_RIVER.jpg/500px-PUERTO_PRINCESA_UNDERGROUND_RIVER.jpg",
+                    "wonderDescription": "A UNESCO World Heritage Site and one of the New 7 Wonders of Nature."
+                },
+                {
+                    "wonderName": "Honda Bay",
+                    "wonderImg": "https://upload.wikimedia.org/wikipedia/en/0/01/Dos_Palmas_RP.JPG",
+                    "wonderDescription": "A bay with several islands ideal for snorkeling and island hopping."
+                },
+                {
+                    "wonderName": "Baker's Hill",
+                    "wonderImg": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/3b/9d/1c/baker-s-hill-bakeshoppe.jpg?w=900&h=500&s=1",
+                    "wonderDescription": "A popular park and bakery with beautiful gardens and views."
                 }
+            ],
+            "cityTop": {
+                "topSights": "Underground River, Honda Bay, Baker's Hill",
+                "topSeason": "Dry season (November to May)",
+                "topTransport": "Tricycles, vans, boats",
+                "topFreeSights": "Baywalk, Plaza Cuartel",
+                "topHood": "Rizal Avenue, San Pedro",
+                "topEquipment": "Swimwear, sunblock"
             },
-            {
-                "cityName": "Tagaytay",
-                "cityBannerImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Seal_of_Tagaytay_City.svg/250px-Seal_of_Tagaytay_City.svg.png",
-                "cityLargeImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Tagaytay_Highlands%2C_Philippines_%28lulaymb%29_3_-_Flickr.jpg/330px-Tagaytay_Highlands%2C_Philippines_%28lulaymb%29_3_-_Flickr.jpg",
-                "cityLoc": "Cavite",
-                "cityAttribute": "Scenic Views",
-                "cityDescription": "Tagaytay is a popular weekend getaway known for its cool climate and panoramic views of Taal Volcano.",
-                "cityWonders": [
-                    {
-                        "wonderName": "Taal Volcano View",
-                        "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Taal_Vista.jpg/500px-Taal_Vista.jpg",
-                        "wonderDescription": "A breathtaking view of Taal Volcano and Lake."
-                    },
-                    {
-                        "wonderName": "Sky Ranch",
-                        "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Sky_Ranch_Tagaytay.jpg/500px-Sky_Ranch_Tagaytay.jpgg",
-                        "wonderDescription": "An amusement park with rides and a giant Ferris wheel."
-                    },
-                    {
-                        "wonderName": "People's Park in the Sky",
-                        "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/People%27s_Park_in_the_Sky.jpg/2560px-People%27s_Park_in_the_Sky.jpg",
-                        "wonderDescription": "A park with panoramic views and historical significance."
-                    }
-                ],
-                "cityTop": {
-                    "topSights": "Taal View, Sky Ranch, Picnic Grove",
-                    "topSeason": "Cool months (December to February)",
-                    "topTransport": "Buses, jeepneys, private cars",
-                    "topFreeSights": "People's Park, Tagaytay Ridge",
-                    "topHood": "Silang Junction, Mahogany Market",
-                    "topEquipment": "Jacket, camera"
+            "cityCode": "PPS"
+        },
+        {
+            "cityName": "Tagaytay",
+            "cityBannerImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Seal_of_Tagaytay_City.svg/250px-Seal_of_Tagaytay_City.svg.png",
+            "cityLargeImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Tagaytay_Highlands%2C_Philippines_%28lulaymb%29_3_-_Flickr.jpg/330px-Tagaytay_Highlands%2C_Philippines_%28lulaymb%29_3_-_Flickr.jpg",
+            "cityLoc": "Cavite",
+            "cityAttribute": "Scenic Views",
+            "cityDescription": "Tagaytay is a popular weekend getaway known for its cool climate and panoramic views of Taal Volcano.",
+            "cityWonders": [
+                {
+                    "wonderName": "Taal Volcano View",
+                    "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Taal_Vista.jpg/500px-Taal_Vista.jpg",
+                    "wonderDescription": "A breathtaking view of Taal Volcano and Lake."
+                },
+                {
+                    "wonderName": "Sky Ranch",
+                    "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Sky_Ranch_Tagaytay.jpg/500px-Sky_Ranch_Tagaytay.jpgg",
+                    "wonderDescription": "An amusement park with rides and a giant Ferris wheel."
+                },
+                {
+                    "wonderName": "People's Park in the Sky",
+                    "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/People%27s_Park_in_the_Sky.jpg/2560px-People%27s_Park_in_the_Sky.jpg",
+                    "wonderDescription": "A park with panoramic views and historical significance."
                 }
+            ],
+            "cityTop": {
+                "topSights": "Taal View, Sky Ranch, Picnic Grove",
+                "topSeason": "Cool months (December to February)",
+                "topTransport": "Buses, jeepneys, private cars",
+                "topFreeSights": "People's Park, Tagaytay Ridge",
+                "topHood": "Silang Junction, Mahogany Market",
+                "topEquipment": "Jacket, camera"
             },
-            {
-                "cityName": "Zamboanga",
-                "cityBannerImg": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Seal_of_Zamboanga_City.png",
-                "cityLargeImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Zamboanga_City_Hall%2C_Rizal_Park_%28NS_Valderosa%2C_Zamboanga_City%3B_10-06-2023%29.jpg/960px-Zamboanga_City_Hall%2C_Rizal_Park_%28NS_Valderosa%2C_Zamboanga_City%3B_10-06-2023%29.jpg",
-                "cityLoc": "Mindanao",
-                "cityAttribute": "Culture and Heritage",
-                "cityDescription": "Zamboanga is known as Asia's Latin City, famous for its Spanish-influenced culture, colorful vintas, and pink sand beaches.",
-                "cityWonders": [
-                    {
-                        "wonderName": "Fort Pilar",
-                        "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Fort_Pilar_Shrine_%28NS_Valderoza%2C_Zamboanga_City%3B_10-07-2023%29.jpg/2560px-Fort_Pilar_Shrine_%28NS_Valderoza%2C_Zamboanga_City%3B_10-07-2023%29.jpg",
-                        "wonderDescription": "A historic Spanish fortress and shrine."
-                    },
-                    {
-                        "wonderName": "Pink Sand Beach",
-                        "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Isla_Great_Santa_Cruz53.JPG/500px-Isla_Great_Santa_Cruz53.JPG",
-                        "wonderDescription": "A unique beach with naturally pink sand."
-                    },
-                    {
-                        "wonderName": "Paseo del Mar",
-                        "wonderImg": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/e1/fb/14/paseo-del-mar.jpg?w=900&h=-1&s=1",
-                        "wonderDescription": "A waterfront promenade with restaurants and views."
-                    }
-                ],
-                "cityTop": {
-                    "topSights": "Fort Pilar, Pink Sand Beach, Paseo del Mar",
-                    "topSeason": "Dry season (December to May)",
-                    "topTransport": "Jeepneys, tricycles, boats",
-                    "topFreeSights": "Paseo del Mar, Plaza Pershing",
-                    "topHood": "Sta. Cruz Island, Pasonanca",
-                    "topEquipment": "Sun protection, camera"
+            "cityCode": "TGY"
+        },
+        {
+            "cityName": "Zamboanga",
+            "cityBannerImg": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Seal_of_Zamboanga_City.png",
+            "cityLargeImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Zamboanga_City_Hall%2C_Rizal_Park_%28NS_Valderosa%2C_Zamboanga_City%3B_10-06-2023%29.jpg/960px-Zamboanga_City_Hall%2C_Rizal_Park_%28NS_Valderosa%2C_Zamboanga_City%3B_10-06-2023%29.jpg",
+            "cityLoc": "Mindanao",
+            "cityAttribute": "Culture and Heritage",
+            "cityDescription": "Zamboanga is known as Asia's Latin City, famous for its Spanish-influenced culture, colorful vintas, and pink sand beaches.",
+            "cityWonders": [
+                {
+                    "wonderName": "Fort Pilar",
+                    "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Fort_Pilar_Shrine_%28NS_Valderoza%2C_Zamboanga_City%3B_10-07-2023%29.jpg/2560px-Fort_Pilar_Shrine_%28NS_Valderoza%2C_Zamboanga_City%3B_10-07-2023%29.jpg",
+                    "wonderDescription": "A historic Spanish fortress and shrine."
+                },
+                {
+                    "wonderName": "Pink Sand Beach",
+                    "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Isla_Great_Santa_Cruz53.JPG/500px-Isla_Great_Santa_Cruz53.JPG",
+                    "wonderDescription": "A unique beach with naturally pink sand."
+                },
+                {
+                    "wonderName": "Paseo del Mar",
+                    "wonderImg": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/e1/fb/14/paseo-del-mar.jpg?w=900&h=-1&s=1",
+                    "wonderDescription": "A waterfront promenade with restaurants and views."
                 }
+            ],
+            "cityTop": {
+                "topSights": "Fort Pilar, Pink Sand Beach, Paseo del Mar",
+                "topSeason": "Dry season (December to May)",
+                "topTransport": "Jeepneys, tricycles, boats",
+                "topFreeSights": "Paseo del Mar, Plaza Pershing",
+                "topHood": "Sta. Cruz Island, Pasonanca",
+                "topEquipment": "Sun protection, camera"
             },
-            {
-                "cityName": "Dumaguete",
-                "cityBannerImg": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Ph_seal_pangasinan_dagupan.png/160px-Ph_seal_pangasinan_dagupan.png",
-                "cityLargeImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/By_Jdcedit_-_Overlooking_Arellano_Street_Dagupan_CBD.jpg/500px-By_Jdcedit_-_Overlooking_Arellano_Street_Dagupan_CBD.jpg",
-                "cityLoc": "Negros Oriental",
-                "cityAttribute": "University Town & Diving",
-                "cityDescription": "Dumaguete is known for its laid-back vibe, universities, and proximity to world-class dive spots like Apo Island.",
-                "cityWonders": [
-                    {
-                        "wonderName": "Rizal Boulevard",
-                        "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Dagupan34jf.JPG/1800px-Dagupan34jf.JPG",
-                        "wonderDescription": "A scenic seaside promenade popular for walks and sunsets."
-                    },
-                    {
-                        "wonderName": "Apo Island",
-                        "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Apo_Island_east.jpg/2880px-Apo_Island_east.jpg",
-                        "wonderDescription": "A marine sanctuary famous for diving and snorkeling."
-                    },
-                    {
-                        "wonderName": "Silliman University",
-                        "wonderImg": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/fd/51/af/silliman-university.jpg?w=1200&h=-1&s=1",
-                        "wonderDescription": "One of the oldest universities in the Philippines, known for its beautiful campus."
-                    }
-                ],
-                "cityTop": {
-                    "topSights": "Rizal Boulevard, Apo Island, Silliman University",
-                    "topSeason": "Dry season (December to May)",
-                    "topTransport": "Tricycles, ferries, buses",
-                    "topFreeSights": "Boulevard, Silliman campus",
-                    "topHood": "Piapi, Bantayan",
-                    "topEquipment": "Snorkeling gear, camera"
+            "cityCode": "ZAM"
+        },
+        {
+            "cityName": "Dumaguete",
+            "cityBannerImg": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Ph_seal_pangasinan_dagupan.png/160px-Ph_seal_pangasinan_dagupan.png",
+            "cityLargeImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/By_Jdcedit_-_Overlooking_Arellano_Street_Dagupan_CBD.jpg/500px-By_Jdcedit_-_Overlooking_Arellano_Street_Dagupan_CBD.jpg",
+            "cityLoc": "Negros Oriental",
+            "cityAttribute": "University Town & Diving",
+            "cityDescription": "Dumaguete is known for its laid-back vibe, universities, and proximity to world-class dive spots like Apo Island.",
+            "cityWonders": [
+                {
+                    "wonderName": "Rizal Boulevard",
+                    "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Dagupan34jf.JPG/1800px-Dagupan34jf.JPG",
+                    "wonderDescription": "A scenic seaside promenade popular for walks and sunsets."
+                },
+                {
+                    "wonderName": "Apo Island",
+                    "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Apo_Island_east.jpg/2880px-Apo_Island_east.jpg",
+                    "wonderDescription": "A marine sanctuary famous for diving and snorkeling."
+                },
+                {
+                    "wonderName": "Silliman University",
+                    "wonderImg": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/fd/51/af/silliman-university.jpg?w=1200&h=-1&s=1",
+                    "wonderDescription": "One of the oldest universities in the Philippines, known for its beautiful campus."
                 }
+            ],
+            "cityTop": {
+                "topSights": "Rizal Boulevard, Apo Island, Silliman University",
+                "topSeason": "Dry season (December to May)",
+                "topTransport": "Tricycles, ferries, buses",
+                "topFreeSights": "Boulevard, Silliman campus",
+                "topHood": "Piapi, Bantayan",
+                "topEquipment": "Snorkeling gear, camera"
             },
-            {
-                "cityName": "General Santos",
-                "cityBannerImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/General_Santos_City_seal.jpg/250px-General_Santos_City_seal.jpg",
-                "cityLargeImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Gensan.jpg/500px-Gensan.jpg",
-                "cityLoc": "South Cotabato",
-                "cityAttribute": "Tuna Capital",
-                "cityDescription": "General Santos is famous for its tuna industry, vibrant markets, and proximity to Sarangani Bay.",
-                "cityWonders": [
-                    {
-                        "wonderName": "GenSan Fish Port",
-                        "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/8/82/Gen_Santos_city_5.jpg",
-                        "wonderDescription": "One of the largest fish ports in the country."
-                    },
-                    {
-                        "wonderName": "Sarangani Bay",
-                        "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Aerial_view_of_port_of_general_santos.jpg",
-                        "wonderDescription": "A bay known for water sports and scenic views."
-                    },
-                    {
-                        "wonderName": "Plaza Heneral",
-                        "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Robinsons_Place_General_Santos_-_panoramio.jpg/2560px-Robinsons_Place_General_Santos_-_panoramio.jpg",
-                        "wonderDescription": "A public park and cultural center in the city."
-                    }
-                ],
-                "cityTop": {
-                    "topSights": "Fish Port, Sarangani Bay, Plaza Heneral",
-                    "topSeason": "Year-round",
-                    "topTransport": "Jeepneys, tricycles, taxis",
-                    "topFreeSights": "Plaza Heneral, Baywalk",
-                    "topHood": "Lagao, Calumpang",
-                    "topEquipment": "Sun protection, camera"
+            "cityCode": "DGT"
+        },
+        {
+            "cityName": "General Santos",
+            "cityBannerImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/General_Santos_City_seal.jpg/250px-General_Santos_City_seal.jpg",
+            "cityLargeImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Gensan.jpg/500px-Gensan.jpg",
+            "cityLoc": "South Cotabato",
+            "cityAttribute": "Tuna Capital",
+            "cityDescription": "General Santos is famous for its tuna industry, vibrant markets, and proximity to Sarangani Bay.",
+            "cityWonders": [
+                {
+                    "wonderName": "GenSan Fish Port",
+                    "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/8/82/Gen_Santos_city_5.jpg",
+                    "wonderDescription": "One of the largest fish ports in the country."
+                },
+                {
+                    "wonderName": "Sarangani Bay",
+                    "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Aerial_view_of_port_of_general_santos.jpg",
+                    "wonderDescription": "A bay known for water sports and scenic views."
+                },
+                {
+                    "wonderName": "Plaza Heneral",
+                    "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Robinsons_Place_General_Santos_-_panoramio.jpg/2560px-Robinsons_Place_General_Santos_-_panoramio.jpg",
+                    "wonderDescription": "A public park and cultural center in the city."
                 }
+            ],
+            "cityTop": {
+                "topSights": "Fish Port, Sarangani Bay, Plaza Heneral",
+                "topSeason": "Year-round",
+                "topTransport": "Jeepneys, tricycles, taxis",
+                "topFreeSights": "Plaza Heneral, Baywalk",
+                "topHood": "Lagao, Calumpang",
+                "topEquipment": "Sun protection, camera"
             },
-            {
-                "cityName": "Bacolod",
-                "cityBannerImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Official_Seal_of_Bacolod_City_2022.png/330px-Official_Seal_of_Bacolod_City_2022.png",
-                "cityLargeImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Bacolod_city_northern_skyline.jpg/500px-Bacolod_city_northern_skyline.jpg",
-                "cityLoc": "Negros Occidental",
-                "cityAttribute": "City of Smiles",
-                "cityDescription": "Bacolod is known for its MassKara Festival, delicious food, and friendly locals.",
-                "cityWonders": [
-                    {
-                        "wonderName": "The Ruins",
-                        "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/MarianoRamosHouse.jpg/500px-MarianoRamosHouse.jpg",
-                        "wonderDescription": "A beautiful mansion ruin with Italian architecture."
-                    },
-                    {
-                        "wonderName": "San Sebastian Cathedral",
-                        "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/San_Sebastian_Cathedral_Bacolod_%28Rizal_Street%2C_Bacolod%2C_Negros_Occidental%3B_10-31-2022%29.jpg/2560px-San_Sebastian_Cathedral_Bacolod_%28Rizal_Street%2C_Bacolod%2C_Negros_Occidental%3B_10-31-2022%29.jpg",
-                        "wonderDescription": "A historic cathedral in the city center."
-                    },
-                    {
-                        "wonderName" : "Capitol Park",
-                        "wonderImg" : "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Bacolod_Public_Plaza_Bandstand_%28Bacolod%2C_Negros_Occidental%3B_10-23-2022%29.jpg/500px-Bacolod_Public_Plaza_Bandstand_%28Bacolod%2C_Negros_Occidental%3B_10-23-2022%29.jpg",
-                        "wonderDescription" :""
-                    }
-                ],
-                "cityTop": {
-                    "topSights": "The Ruins, San Sebastian Cathedral, Capitol Park",
-                    "topSeason": "October for MassKara Festival",
-                    "topTransport": "Jeepneys, taxis, tricycles",
-                    "topFreeSights": "Capitol Park, Lagoon",
-                    "topHood": "Lacson Street, Mandalagan",
-                    "topEquipment": "Camera, walking shoes"
+            "cityCode": "GES"
+        },
+        {
+            "cityName": "Bacolod",
+            "cityBannerImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Official_Seal_of_Bacolod_City_2022.png/330px-Official_Seal_of_Bacolod_City_2022.png",
+            "cityLargeImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Bacolod_city_northern_skyline.jpg/500px-Bacolod_city_northern_skyline.jpg",
+            "cityLoc": "Negros Occidental",
+            "cityAttribute": "City of Smiles",
+            "cityDescription": "Bacolod is known for its MassKara Festival, delicious food, and friendly locals.",
+            "cityWonders": [
+                {
+                    "wonderName": "The Ruins",
+                    "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/MarianoRamosHouse.jpg/500px-MarianoRamosHouse.jpg",
+                    "wonderDescription": "A beautiful mansion ruin with Italian architecture."
+                },
+                {
+                    "wonderName": "San Sebastian Cathedral",
+                    "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/San_Sebastian_Cathedral_Bacolod_%28Rizal_Street%2C_Bacolod%2C_Negros_Occidental%3B_10-31-2022%29.jpg/2560px-San_Sebastian_Cathedral_Bacolod_%28Rizal_Street%2C_Bacolod%2C_Negros_Occidental%3B_10-31-2022%29.jpg",
+                    "wonderDescription": "A historic cathedral in the city center."
+                },
+                {
+                    "wonderName": "Capitol Park",
+                    "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Bacolod_Public_Plaza_Bandstand_%28Bacolod%2C_Negros_Occidental%3B_10-23-2022%29.jpg/500px-Bacolod_Public_Plaza_Bandstand_%28Bacolod%2C_Negros_Occidental%3B_10-23-2022%29.jpg",
+                    "wonderDescription": ""
                 }
+            ],
+            "cityTop": {
+                "topSights": "The Ruins, San Sebastian Cathedral, Capitol Park",
+                "topSeason": "October for MassKara Festival",
+                "topTransport": "Jeepneys, taxis, tricycles",
+                "topFreeSights": "Capitol Park, Lagoon",
+                "topHood": "Lacson Street, Mandalagan",
+                "topEquipment": "Camera, walking shoes"
             },
-            {
-                "cityName": "Cagayan de Oro",
-                "cityBannerImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Cagayan_de_Oro_official_seal%2C_2014.png/250px-Cagayan_de_Oro_official_seal%2C_2014.png",
-                "cityLargeImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/CDO_CM_Recto-Corrales_skyline_alt_%28Cagayan_De_Oro_City%3B_12-08-2023%29.jpg/960px-CDO_CM_Recto-Corrales_skyline_alt_%28Cagayan_De_Oro_City%3B_12-08-2023%29.jpg",
-                "cityLoc": "Misamis Oriental",
-                "cityAttribute": "Adventure Capital",
-                "cityDescription": "Cagayan de Oro is famous for whitewater rafting, adventure sports, and friendly people.",
-                "cityWonders": [
-                    {
-                        "wonderName": "Cagayan de Oro River",
-                        "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/CDOkayak-raft.JPG/500px-CDOkayak-raft.JPG",
-                        "wonderDescription": "A popular spot for whitewater rafting."
-                    },
-                    {
-                        "wonderName": "Divine Mercy Shrine",
-                        "wonderImg": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/18/38/0d/photo0jpg.jpg?w=1400&h=800&s=1",
-                        "wonderDescription": "A pilgrimage site with a giant statue."
-                    },
-                    {
-                        "wonderName": "Gaston Park",
-                        "wonderImg": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/bf/0f/ad/horticultural-venors.jpg?w=800&h=400&s=1",
-                        "wonderDescription": "A public park with a historical fountain and gardens."
-                    }
-                ],
-                "cityTop": {
-                    "topSights": "River Rafting, Divine Mercy Shrine, Gaston Park",
-                    "topSeason": "Dry season (December to May)",
-                    "topTransport": "Jeepneys, taxis, buses",
-                    "topFreeSights": "Gaston Park, Plaza Divisoria",
-                    "topHood": "Nazareth, Carmen",
-                    "topEquipment": "Water gear, camera"
+            "cityCode": "BCL"
+        },
+        {
+            "cityName": "Cagayan de Oro",
+            "cityBannerImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Cagayan_de_Oro_official_seal%2C_2014.png/250px-Cagayan_de_Oro_official_seal%2C_2014.png",
+            "cityLargeImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/CDO_CM_Recto-Corrales_skyline_alt_%28Cagayan_De_Oro_City%3B_12-08-2023%29.jpg/960px-CDO_CM_Recto-Corrales_skyline_alt_%28Cagayan_De_Oro_City%3B_12-08-2023%29.jpg",
+            "cityLoc": "Misamis Oriental",
+            "cityAttribute": "Adventure Capital",
+            "cityDescription": "Cagayan de Oro is famous for whitewater rafting, adventure sports, and friendly people.",
+            "cityWonders": [
+                {
+                    "wonderName": "Cagayan de Oro River",
+                    "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/CDOkayak-raft.JPG/500px-CDOkayak-raft.JPG",
+                    "wonderDescription": "A popular spot for whitewater rafting."
+                },
+                {
+                    "wonderName": "Divine Mercy Shrine",
+                    "wonderImg": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/18/38/0d/photo0jpg.jpg?w=1400&h=800&s=1",
+                    "wonderDescription": "A pilgrimage site with a giant statue."
+                },
+                {
+                    "wonderName": "Gaston Park",
+                    "wonderImg": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/bf/0f/ad/horticultural-venors.jpg?w=800&h=400&s=1",
+                    "wonderDescription": "A public park with a historical fountain and gardens."
                 }
+            ],
+            "cityTop": {
+                "topSights": "River Rafting, Divine Mercy Shrine, Gaston Park",
+                "topSeason": "Dry season (December to May)",
+                "topTransport": "Jeepneys, taxis, buses",
+                "topFreeSights": "Gaston Park, Plaza Divisoria",
+                "topHood": "Nazareth, Carmen",
+                "topEquipment": "Water gear, camera"
             },
-            {
-                "cityName": "Legazpi",
-                "cityBannerImg": "https://upload.wikimedia.org/wikipedia/en/thumb/6/65/Ph_seal_legazpicity.png/250px-Ph_seal_legazpicity.png",
-                "cityLargeImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Legazpi_Port_District.jpg/330px-Legazpi_Port_District.jpg",
-                "cityLoc": "Albay",
-                "cityAttribute": "Volcano & Adventure",
-                "cityDescription": "Legazpi is known for the majestic Mayon Volcano, adventure sports, and local cuisine.",
-                "cityWonders": [
-                    {
-                        "wonderName": "Mayon Volcano",
-                        "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Mayon_Volcano_and_the_Sleeping_Lion.jpg/960px-Mayon_Volcano_and_the_Sleeping_Lion.jpg",
-                        "wonderDescription": "A perfectly-shaped volcano and iconic landmark."
-                    },
-                    {
-                        "wonderName": "Cagsawa Ruins",
-                        "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Cagsawa_ruins.jpg/500px-Cagsawa_ruins.jpg",
-                        "wonderDescription": "Ruins of a church destroyed by a volcanic eruption."
-                    },
-                    {
-                        "wonderName": "Lignon Hill",
-                        "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Lig%C3%B1on_Hill_view_from_Daraga_San_Roque_%28Daraga%2C_Albay%3B_04-17-2023%29.jpg/960px-Lig%C3%B1on_Hill_view_from_Daraga_San_Roque_%28Daraga%2C_Albay%3B_04-17-2023%29.jpg",
-                        "wonderDescription": "A hill offering panoramic views of Mayon Volcano and the city."
-                    }
-                ],
-                "cityTop": {
-                    "topSights": "Mayon Volcano, Cagsawa Ruins, Lignon Hill",
-                    "topSeason": "Dry season (December to May)",
-                    "topTransport": "Jeepneys, tricycles, vans",
-                    "topFreeSights": "Cagsawa Ruins Park, Embarcadero",
-                    "topHood": "Daraga, Old Albay",
-                    "topEquipment": "Camera, hiking shoes"
+            "cityCode": "CGY"
+        },
+        {
+            "cityName": "Legazpi",
+            "cityBannerImg": "https://upload.wikimedia.org/wikipedia/en/thumb/6/65/Ph_seal_legazpicity.png/250px-Ph_seal_legazpicity.png",
+            "cityLargeImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Legazpi_Port_District.jpg/330px-Legazpi_Port_District.jpg",
+            "cityLoc": "Albay",
+            "cityAttribute": "Volcano & Adventure",
+            "cityDescription": "Legazpi is known for the majestic Mayon Volcano, adventure sports, and local cuisine.",
+            "cityWonders": [
+                {
+                    "wonderName": "Mayon Volcano",
+                    "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Mayon_Volcano_and_the_Sleeping_Lion.jpg/960px-Mayon_Volcano_and_the_Sleeping_Lion.jpg",
+                    "wonderDescription": "A perfectly-shaped volcano and iconic landmark."
+                },
+                {
+                    "wonderName": "Cagsawa Ruins",
+                    "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Cagsawa_ruins.jpg/500px-Cagsawa_ruins.jpg",
+                    "wonderDescription": "Ruins of a church destroyed by a volcanic eruption."
+                },
+                {
+                    "wonderName": "Lignon Hill",
+                    "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Lig%C3%B1on_Hill_view_from_Daraga_San_Roque_%28Daraga%2C_Albay%3B_04-17-2023%29.jpg/960px-Lig%C3%B1on_Hill_view_from_Daraga_San_Roque_%28Daraga%2C_Albay%3B_04-17-2023%29.jpg",
+                    "wonderDescription": "A hill offering panoramic views of Mayon Volcano and the city."
                 }
+            ],
+            "cityTop": {
+                "topSights": "Mayon Volcano, Cagsawa Ruins, Lignon Hill",
+                "topSeason": "Dry season (December to May)",
+                "topTransport": "Jeepneys, tricycles, vans",
+                "topFreeSights": "Cagsawa Ruins Park, Embarcadero",
+                "topHood": "Daraga, Old Albay",
+                "topEquipment": "Camera, hiking shoes"
             },
-            {
-                "cityName": "Batanes",
-                "cityBannerImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Batanes_Seal.svg/250px-Batanes_Seal.svg.png",
-                "cityLargeImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Sabtang_Batanes.jpg/500px-Sabtang_Batanes.jpg",
-                "cityLoc": "Cagayan Valley",
-                "cityAttribute": "Scenic & Remote",
-                "cityDescription": "Batanes is the northernmost province, known for rolling hills, stone houses, and dramatic landscapes.",
-                "cityWonders": [
-                    {
-                        "wonderName": "Basco Lighthouse",
-                        "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/KIRKAMON_TAYID_LIGHTHOUSE%2C_MAHATAO_BATANES.jpg/2880px-KIRKAMON_TAYID_LIGHTHOUSE%2C_MAHATAO_BATANES.jpg",
-                        "wonderDescription": "A picturesque lighthouse overlooking the sea."
-                    },
-                    {
-                        "wonderName": "Marlboro Hills",
-                        "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Batanes_Hills.png",
-                        "wonderDescription": "Rolling hills with panoramic views."
-                    },
-                    {
-                        "wonderName": "Sabtang Island",
-                        "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Chawa_Viiew_Deck%2C_Batanes.jpg",
-                        "wonderDescription": "An island known for its traditional Ivatan stone houses and stunning beaches."
-                    }
-                ],
-                "cityTop": {
-                    "topSights": "Basco Lighthouse, Marlboro Hills, Sabtang Island",
-                    "topSeason": "March to June for best weather",
-                    "topTransport": "Bicycles, tricycles, vans",
-                    "topFreeSights": "Hills, beaches",
-                    "topHood": "Basco, Sabtang",
-                    "topEquipment": "Camera, sun protection"
+            "cityCode": "LGP"
+        },
+        {
+            "cityName": "Batanes",
+            "cityBannerImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Batanes_Seal.svg/250px-Batanes_Seal.svg.png",
+            "cityLargeImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Sabtang_Batanes.jpg/500px-Sabtang_Batanes.jpg",
+            "cityLoc": "Cagayan Valley",
+            "cityAttribute": "Scenic & Remote",
+            "cityDescription": "Batanes is the northernmost province, known for rolling hills, stone houses, and dramatic landscapes.",
+            "cityWonders": [
+                {
+                    "wonderName": "Basco Lighthouse",
+                    "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/KIRKAMON_TAYID_LIGHTHOUSE%2C_MAHATAO_BATANES.jpg/2880px-KIRKAMON_TAYID_LIGHTHOUSE%2C_MAHATAO_BATANES.jpg",
+                    "wonderDescription": "A picturesque lighthouse overlooking the sea."
+                },
+                {
+                    "wonderName": "Marlboro Hills",
+                    "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Batanes_Hills.png",
+                    "wonderDescription": "Rolling hills with panoramic views."
+                },
+                {
+                    "wonderName": "Sabtang Island",
+                    "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Chawa_Viiew_Deck%2C_Batanes.jpg",
+                    "wonderDescription": "An island known for its traditional Ivatan stone houses and stunning beaches."
                 }
+            ],
+            "cityTop": {
+                "topSights": "Basco Lighthouse, Marlboro Hills, Sabtang Island",
+                "topSeason": "March to June for best weather",
+                "topTransport": "Bicycles, tricycles, vans",
+                "topFreeSights": "Hills, beaches",
+                "topHood": "Basco, Sabtang",
+                "topEquipment": "Camera, sun protection"
             },
-            {
-                "cityName": "Quezon",
-                "cityBannerImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Quezon_City.svg/250px-Quezon_City.svg.png",
-                "cityLargeImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Heart_of_Quezon_City.jpg/500px-The_Heart_of_Quezon_City.jpg",
-                "cityLoc": "Calabarzon",
-                "cityAttribute": "Cultural & Natural",
-                "cityDescription": "Quezon Province is known for its rich cultural heritage, beautiful beaches, and natural attractions.",
-                "cityWonders": [
-                    {
-                        "wonderName": "Villa Escudero",
-                        "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/3/39/Villa_wiki.jpg",
-                        "wonderDescription": "A resort with a waterfall restaurant and cultural shows."
-                    },
-                    {
-                        "wonderName": "Cagbalete Island",
-                        "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Cagbalete_Island_2.jpg/2560px-Cagbalete_Island_2.jpg",
-                        "wonderDescription": "A beautiful island with white sand beaches and clear waters."
-                    },
-                    {
-                        "wonderName": "Mount Banahaw",
-                        "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/View_of_Mt._Banahaw_from_Sampalok_Lake%2C_San_Pablo_City%2C_Laguna.jpg/960px-View_of_Mt._Banahaw_from_Sampalok_Lake%2C_San_Pablo_City%2C_Laguna.jpg",
-                        "wonderDescription": "A dormant volcano known for its hiking trails and spiritual significance."
-                    }
-                ],
-                "cityTop": {
-                    "topSights": "Villa Escudero, Cagbalete Island, Mount Banahaw",
-                    "topSeason": "Dry season (December to May)",
-                    "topTransport": "Buses, jeepneys, tricycles", 
-                    "topFreeSights": "Beaches, waterfalls",
-                    "topHood": "Lucban, Tayabas",
-                    "topEquipment": "Swimwear, hiking shoes, camera"
+            "cityCode": "BAS"
+        },
+        {
+            "cityName": "Quezon",
+            "cityBannerImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Quezon_City.svg/250px-Quezon_City.svg.png",
+            "cityLargeImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Heart_of_Quezon_City.jpg/500px-The_Heart_of_Quezon_City.jpg",
+            "cityLoc": "Calabarzon",
+            "cityAttribute": "Cultural & Natural",
+            "cityDescription": "Quezon Province is known for its rich cultural heritage, beautiful beaches, and natural attractions.",
+            "cityWonders": [
+                {
+                    "wonderName": "Villa Escudero",
+                    "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/3/39/Villa_wiki.jpg",
+                    "wonderDescription": "A resort with a waterfall restaurant and cultural shows."
+                },
+                {
+                    "wonderName": "Cagbalete Island",
+                    "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Cagbalete_Island_2.jpg/2560px-Cagbalete_Island_2.jpg",
+                    "wonderDescription": "A beautiful island with white sand beaches and clear waters."
+                },
+                {
+                    "wonderName": "Mount Banahaw",
+                    "wonderImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/View_of_Mt._Banahaw_from_Sampalok_Lake%2C_San_Pablo_City%2C_Laguna.jpg/960px-View_of_Mt._Banahaw_from_Sampalok_Lake%2C_San_Pablo_City%2C_Laguna.jpg",
+                    "wonderDescription": "A dormant volcano known for its hiking trails and spiritual significance."
                 }
-            }
+            ],
+            "cityTop": {
+                "topSights": "Villa Escudero, Cagbalete Island, Mount Banahaw",
+                "topSeason": "Dry season (December to May)",
+                "topTransport": "Buses, jeepneys, tricycles",
+                "topFreeSights": "Beaches, waterfalls",
+                "topHood": "Lucban, Tayabas",
+                "topEquipment": "Swimwear, hiking shoes, camera"
+            },
+            "cityCode": "QZN"
+        }
     ]
 }
