@@ -1,7 +1,6 @@
-import { weatherapi } from "./server/app.js"
 (function () {
     const pagesData = [];
-    let cities = [], isPopState = false, packages = [], totalRaw = [];
+    let cities = [], isPopState = false, packages = [];
 
     /**
      * This function switches the page based on the provided page name.
@@ -106,12 +105,6 @@ import { weatherapi } from "./server/app.js"
         if (page.includes("package")) {
             setUpPackages();
         }
-        if (page.includes("service")) {
-            desLinkBuilder(cities, "#weather-opts", false);
-            $("#weather-get-btn").click((e) => {
-                getWeatherInfo($("#weather-opts").val());
-            })
-        }
         isPopState = true;
         $("title").text(titleCase(page));
     }
@@ -172,21 +165,14 @@ import { weatherapi } from "./server/app.js"
         desCardBuilder(cities.slice(index + 1, index + 4))
     }
     /**
-     * Creates the destinations buttons sFERpj4GwyTtEpPAWh9lpsLwjv5T
+     * Creates the destinations buttons 
      */
-    function desLinkBuilder(data, place, image = true) {
+    function desLinkBuilder(data, place) {
         data.forEach((item, index) => {
-            let container = $(image ? "<div/>" : "<option/>").addClass(`flex items-center space-x-2 space-y-1 p-2 ${index + 1 === data.length ? "hover:rounded-b-xl" : "hover:rounded-none"}`),
+            let container = $("<div/>").addClass(`flex items-center space-x-2 space-y-1 p-2 ${index + 1 === data.length ? "hover:rounded-b-xl" : "hover:rounded-none"}`),
                 img = $("<img/>").attr("src", item.cityBannerImg).addClass("rounded size-10 "),
                 btn = $("<h5/>").text(item.cityName).addClass("inline hover:cursor-pointer capitalize link-btn ").attr("routes", "des-" + item.cityName);
-            if (image) {
-                container.append(img);
-            }
-            if(!image){
-                container.val(item.cityCode)
-                //console.log(container.val(item.cityCode)); 
-            }
-            container.append(btn);
+            container.append(img, btn);
             $(place).append(container);
         })
     }
@@ -206,36 +192,6 @@ import { weatherapi } from "./server/app.js"
         })
     }
     /**
-     * 
-     */
-    function getWeatherInfo(value) {
-        const city = value;
-        console.log(city)
-        /*fetch(`http://api.weatherapi.com/v1/current.json?&key=${weatherapi}&q=${city}`)
-            .then((res) => res.json())
-            .then((res) => {
-                console.log(res);
-            })
-        */
-        const url = `https://test.api.amadeus.com/v1/reference-data/locations/hotels/by-city?cityCode=${value}`
-        fetch(url, {
-            method: "GET",
-            headers: {
-                "Authorization": "Bearer HEYoVDHZMqRMJPHOA2GE42RqjwPB"
-            },
-            mode: "cors",
-            cath: "default"
-        })
-        .then((res) => res.json())
-        .then((data) => {
-            console.log(data)
-            totalRaw.push(data);
-            localStorage.setItem("totalData",JSON.stringify(totalRaw))
-
-        })
-
-    }
-    /**
      * This fetches cities.json and performace a optional
      * callback inside of the fetch
      * @param {Function} callback 
@@ -250,10 +206,6 @@ import { weatherapi } from "./server/app.js"
             }
         });
     }
-    /**
-     * fetches packages data and renders them
-     * @returns void
-     */
     function setUpPackages() {
         if (packages.length > 0) {
             packageBuilder(packages);
@@ -331,9 +283,6 @@ import { weatherapi } from "./server/app.js"
                 switchPage(localStorage.getItem("lastPage"));
                 $(".link-btn").click((e) => switchPageClickEffect(e.target.getAttribute("routes")));
             })
-        }
-        if(localStorage.getItem("totalData")){
-            totalRaw = JSON.parse(localStorage.getItem("totalData"));
         }
         $(".des-cont").hide();
         $("#des-btn").click(() => {
